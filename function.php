@@ -1,24 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@Dhaniayee 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-1
-021kumpulanremaja/gofood
- Code Issues 0 Pull requests 2 Actions Projects 0 Wiki Security Insights
-gofood/function.php
-@nadiembcnd nadiembcnd Add files via upload
-da37847 26 days ago
-100 lines (98 sloc)  3.06 KB
-  
 <?php
 function request($url, $token = null, $data = null, $pin = null, $otpsetpin = null, $uuid = null){
 $header[] = "Host: api.gojekapi.com";
@@ -117,15 +96,4 @@ function fetch_value($str,$find_start,$find_end) {
 	return trim(substr($str,$start +$length,$end));
 }
 ?>
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
