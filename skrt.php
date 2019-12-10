@@ -105,7 +105,7 @@ echo " ===========================\n";
         sleep(3);
         $goride = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"WADAWGOJEK"}');
         $message1 = fetch_value($goride,'"message":"','"');
-        echo "\n".color("green","+] Message: ".$message1);
+        echo "\n".color("red","+] Message: ".$message1);
         echo "\n".color("yellow","!] Claim voc COBAINGOJEK");
         echo "\n".color("yellow","!] Please wait");
         for($a=1;$a<=3;$a++){
