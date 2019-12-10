@@ -14,8 +14,6 @@ pkg install git
 
 git clone https://github.com/dhaniayee/gopud
 
-lalu masukan kode perintah untuk menjalankan script , kode ini untuk daftar dan claim voucher go food gojek 
-
 cd gofood
 
 php skrt.php
