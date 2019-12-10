@@ -3,9 +3,7 @@
 voucher go food dan Go ride
 
 kode perintah pkg update
-pkg update
-
-pkg upgrade
+pkg update && pkg upgrade
 
 pkg install php
 
