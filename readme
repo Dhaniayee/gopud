@@ -2,7 +2,8 @@
 
 voucher go food dan Go ride
 
-kode perintah pkg update
+KETIKKAN DI TERMUX LU 
+
 pkg update && pkg upgrade
 
 pkg install php
@@ -18,3 +19,5 @@ lalu masukan kode perintah untuk menjalankan script , kode ini untuk daftar dan 
 cd gofood
 
 php skrt.php
+
+belanjaa wkwkwkkk
