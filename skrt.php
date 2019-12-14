@@ -96,14 +96,14 @@ echo " ===========================\n";
         }else{
         echo "\n".color("green","+] Message: ".$messageboba19);
         goride:
-        echo "\n".color("yellow","!] Claim voc WADAWGOJEK");
+        echo "\n".color("yellow","!] Claim voc GOFOODSENANG");
         echo "\n".color("yellow","!] Please wait");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
         sleep(1);
         }
         sleep(3);
-        $goride = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"WADAWGOJEK"}');
+        $goride = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOFOODSENANG12"}');
         $message1 = fetch_value($goride,'"message":"','"');
         echo "\n".color("red","+] Message: ".$message1);
         echo "\n".color("yellow","!] Claim voc COBAINGOJEK");
